@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name" translatable="false">Plant Disease Detection</string>
+    <string-array name="plant_classes">
+        <item>apple scab</item>
+        <item>apple black rot</item>
+        <item>apple cedar apple rust</item>
+        <item>apple healthy</item>
+        <item>blueberry healthy</item>
+        <item>cherry including sour powdery mildew</item>
+        <item>cherry including sour healthy</item>
+        <item>corn maize cercospora gray leaf spot</item>
+        <item>corn maize common rust</item>
+        <item>corn maize northern leaf blight</item>
+        <item>corn maize healthy</item>
+        <item>grape black rot</item>
+        <item>grape esca black measles</item>
+        <item>grape leaf blight isariopsis leaf spot</item>
+        <item>grape healthy</item>
+        <item>orange haunglongbing (citrus greening)</item>
+        <item>peach bacterial spot</item>
+        <item>peach healthy</item>
+        <item>pepper bell bacterial spot</item>
+        <item>pepper bell healthy</item>
+        <item>potato early blight</item>
+        <item>potato late blight</item>
+        <item>potato healthy</item>
+        <item>raspberry healthy</item>
+        <item>soybean healthy</item>
+        <item>squash powdery mildew</item>
+        <item>strawberry leaf scorch</item>
+        <item>strawberry healthy</item>
+        <item>tomato bacterial spot</item>
+        <item>tomato early blight</item>
+        <item>tomato late blight</item>
+        <item>tomato leaf mold</item>
+        <item>tomato septoria leaf spot</item>
+        <item>tomato spider mites two spotted spider mite</item>
+        <item>tomato target spot</item>
+        <item>tomato yellow leaf curl virus</item>
+        <item>tomato mosaic virus</item>
+        <item>tomato healthy</item>
+    </string-array>
+    <string-array name="plant_disease_solutions">
+        <item>To manage apple scab, practice good sanitation by removing fallen leaves and infected plant debris. Apply fungicides at appropriate timings during the growing season.</item>
+        <item>To control apple black rot, remove and destroy infected fruits and plant debris. Apply fungicides during the growing season to protect healthy fruits.</item>
+        <item>To manage apple cedar apple rust, remove any nearby cedar or juniper trees that act as alternate hosts. Fungicides can be used preventively to protect apple trees.</item>
+        <item>Maintain overall tree health, provide proper nutrition and irrigation, and promptly address any pests or issues to keep apple trees healthy.</item>
+        <item>To maintain blueberry plant health, provide proper sunlight, irrigation, and soil conditions. Regularly monitor for pests and diseases and take appropriate measures if detected.</item>
+        <item>To control cherry powdery mildew, use fungicides and practice good sanitation by removing and destroying infected plant parts. Provide adequate air circulation and sunlight to minimize disease development.</item>
+        <item>Maintain cherry tree\'s overall health by providing proper growing conditions, including adequate sunlight, water, and nutrients. Prune infected branches and apply appropriate fungicides if necessary.</item>
+        <item>To manage corn maize cercospora gray leaf spot, use resistant varieties, practice crop rotation, and apply fungicides when necessary. Remove and destroy infected plant debris.</item>
+        <item>To control corn maize common rust, choose resistant varieties, practice good field sanitation, and apply appropriate fungicides if necessary.</item>
+        <item>To manage corn maize northern leaf blight, use resistant varieties, practice crop rotation, and apply fungicides when necessary. Remove and destroy infected plant debris.</item>
+        <item>Maintain overall plant health by providing proper nutrition, irrigation, and weed control. Monitor for pests and diseases and take appropriate measures if detected.</item>
+        <item>To control grape black rot, remove and destroy infected berries and plant debris. Apply fungicides during the growing season to protect healthy grapes.</item>
+        <item>To manage grape esca black measles, prune and remove infected wood, and protect pruning wounds with appropriate fungicides. Maintain vineyard health and consider using disease-resistant grape varieties.</item>
+        <item>To control grape leaf blight (Isariopsis leaf spot), remove and destroy infected leaves, improve air circulation, and apply fungicides when necessary.</item>
+        <item>Maintain grapevine health by providing proper cultural practices, including irrigation, fertilization, and disease management. Monitor for pests and diseases and take appropriate actions.</item>
+        <item>Unfortunately, there is no cure for orange haunglongbing (citrus greening). It is important to remove and destroy infected trees and manage the insect vectors. Planting disease-free citrus stock is crucial.</item>
+        <item>To control peach bacterial spot, prune and remove infected branches, and apply appropriate copper-based sprays during the dormant season. Practice good sanitation and provide proper plant care.</item>
+        <item>Maintain overall peach tree health by providing proper sunlight, irrigation, and nutrient balance. Prune infected branches and apply appropriate fungicides or bactericides when necessary.</item>
+        <item>To manage bacterial spot in pepper bell plants, practice crop rotation, provide good air circulation, and use copper-based fungicides when necessary. Remove and destroy infected plants.</item>
+        <item>Maintain overall pepper bell plant health by providing proper growing conditions, including adequate sunlight, water, and nutrients. Practice good sanitation and monitor for pests and diseases.</item>
+        <item>To control potato early blight, remove and destroy infected plant debris, practice crop rotation, and apply fungicides when necessary. Maintain proper plant spacing and good field hygiene.</item>
+        <item>To manage potato late blight, practice good field sanitation, use resistant varieties, and apply appropriate fungicides. Remove and destroy infected plants and tubers.</item>
+        <item>Maintain overall potato plant health by providing proper irrigation, nutrition, and spacing. Practice good field hygiene and monitor for pests and diseases.</item>
+        <item>To maintain raspberry plant health, provide proper sunlight, irrigation, and soil conditions. Regularly monitor for pests and diseases and take appropriate measures if detected.</item>
+        <item>Maintain overall soybean plant health by providing proper nutrition, irrigation, and weed control. Monitor for pests and diseases and take appropriate actions.</item>
+        <item>To control squash powdery mildew, use resistant varieties, provide good air circulation, and apply fungicides when necessary. Remove and destroy infected plant parts.</item>
+        <item>To manage strawberry leaf scorch, use disease-resistant varieties, provide proper irrigation, and maintain good air circulation. Apply fungicides when necessary and remove infected plants.</item>
+        <item>Maintain overall strawberry plant health by providing proper growing conditions, including adequate sunlight, water, and nutrients. Practice good sanitation and monitor for pests and diseases.</item>
+        <item>To control bacterial spot in tomato plants, practice crop rotation, provide good air circulation, and use copper-based fungicides when necessary. Remove and destroy infected plants.</item>
+        <item>To manage tomato early blight, practice good sanitation by removing infected leaves and plant debris. Apply fungicides at appropriate timings during the growing season.</item>
+        <item>To control tomato late blight, remove and destroy infected plants and practice good field hygiene. Apply fungicides preventively and maintain proper plant spacing.</item>
+        <item>To manage tomato leaf mold, provide good air circulation, avoid overhead watering, and remove and destroy infected leaves. Apply appropriate fungicides when necessary.</item>
+        <item>To control tomato septoria leaf spot, remove infected leaves and plant debris, and apply fungicides preventively. Maintain proper plant spacing and avoid overhead watering.</item>
+        <item>To manage two-spotted spider mites on tomato plants, regularly monitor for infestations, practice good sanitation, and apply appropriate miticides when necessary.</item>
+        <item>To control target spot in tomato plants, remove and destroy infected leaves, provide proper air circulation, and apply appropriate fungicides. Maintain overall plant health.</item>
+        <item>Unfortunately, there is no cure for tomato yellow leaf curl virus. Manage the disease by removing infected plants, controlling whiteflies, and using disease-resistant tomato varieties.</item>
+        <item>Unfortunately, there is no cure for tomato mosaic virus. Prevent the spread of the virus by using disease-resistant varieties and controlling aphids and other vectors.</item>
+        <item>Maintain overall tomato plant health by providing proper nutrition, irrigation, and spacing. Practice good sanitation, monitor for pests and diseases, and take appropriate actions.</item>
+    </string-array>
+    <string-array name="plant_causes">
+        <item>Apple scab is caused by the fungus Venturia inaequalis. It primarily affects the leaves and fruit of apple trees, causing dark, scaly lesions.</item>
+        <item>Apple black rot is caused by the fungus Botryosphaeria obtusa. It causes circular, sunken lesions on the fruit and can lead to significant yield loss.</item>
+        <item>Apple cedar apple rust is caused by the fungus Gymnosporangium juniperi-virginianae. It forms rusty-colored spots on leaves and fruit, affecting the overall health of apple trees.</item>
+        <item>Apple healthy - No specific causes identified.</item>
+        <item>Blueberry healthy - No specific causes identified.</item>
+        <item>Cherry including sour powdery mildew is caused by the fungal pathogen Podosphaera clandestina. It forms a white, powdery coating on leaves and fruit, leading to reduced photosynthesis.</item>
+        <item>Cherry including sour healthy - No specific causes identified.</item>
+        <item>Corn maize cercospora gray leaf spot is caused by the fungus Cercospora zeae-maydis. It results in grayish lesions on the leaves of corn plants, reducing photosynthetic capacity.</item>
+        <item>Corn maize common rust is caused by the fungus Puccinia sorghi. It produces reddish-brown pustules on the leaves, affecting plant vigor and yield.</item>
+        <item>Corn maize northern leaf blight is caused by the fungus Exserohilum turcicum. It causes long, elliptical lesions with tan centers and dark borders on corn leaves, leading to reduced grain quality.</item>
+        <item>Corn maize healthy - No specific causes identified.</item>
+        <item>Grape black rot is caused by the fungus Guignardia bidwellii. It causes black, circular lesions on grape berries, resulting in fruit rot and reduced yield.</item>
+        <item>Grape esca black measles is caused by several fungi, including Phaeoacremonium spp. and Phaeomoniella chlamydospora. It leads to blackening and necrosis of grapevine wood, affecting overall vine health and productivity.</item>
+        <item>Grape leaf blight isariopsis leaf spot is caused by the fungus Isariopsis spp. It produces brown spots on grape leaves, leading to defoliation and reduced photosynthesis.</item>
+        <item>Grape healthy - No specific causes identified.</item>
+        <item>Orange haunglongbing (citrus greening) is caused by the bacteria Candidatus Liberibacter spp. It affects citrus trees, causing yellowing of leaves, stunted growth, and bitter, misshapen fruit.</item>
+        <item>Peach bacterial spot is caused by the bacterium Xanthomonas arboricola pv. pruni. It results in dark, raised spots on peach fruit and leaves, leading to fruit drop and reduced yield.</item>
+        <item>Peach healthy - No specific causes identified.</item>
+        <item>Pepper bell bacterial spot is caused by the bacterium Xanthomonas spp. It causes dark, water-soaked lesions on pepper fruit and leaves, leading to reduced marketability.</item>
+        <item>Pepper bell healthy - No specific causes identified.</item>
+        <item>Potato early blight is caused by the fungus Alternaria solani. It produces dark, concentric lesions on potato leaves and stems, leading to defoliation and reduced tuber yield.</item>
+        <item>Potato late blight is caused by the oomycete Phytophthora infestans. It causes water-soaked lesions on potato leaves, stems, and tubers, leading to rapid decay and significant crop loss.</item>
+        <item>Potato healthy - No specific causes identified.</item>
+        <item>Raspberry healthy - No specific causes identified.</item>
+        <item>Soybean healthy - No specific causes identified.</item>
+        <item>Squash powdery mildew is caused by the fungus Podosphaera xanthii. It forms a white, powdery coating on squash leaves, inhibiting photosynthesis and reducing plant vigor.</item>
+        <item>Strawberry leaf scorch is caused by the bacterium Xylella fastidiosa. It leads to browning and necrosis of strawberry leaf margins, affecting overall plant health and fruit production.</item>
+        <item>Strawberry healthy - No specific causes identified.</item>
+        <item>Tomato bacterial spot is caused by the bacterium Xanthomonas spp. It produces dark, water-soaked lesions on tomato fruit and leaves, leading to reduced marketability.</item>
+        <item>Tomato early blight is caused by the fungus Alternaria solani. It results in brown, concentric lesions on tomato leaves, reducing photosynthesis and affecting fruit quality.</item>
+        <item>Tomato late blight is caused by the oomycete Phytophthora infestans. It causes water-soaked lesions on tomato leaves, stems, and fruit, leading to rapid decay and significant crop loss.</item>
+        <item>Tomato leaf mold is caused by the fungus Fulvia fulva. It results in yellowing and necrosis of tomato leaves, affecting plant vigor and reducing yield.</item>
+        <item>Tomato septoria leaf spot is caused by the fungus Septoria lycopersici. It produces small, circular lesions with dark centers and yellow halos on tomato leaves, leading to defoliation and reduced fruit quality.</item>
+        <item>Tomato spider mites two spotted spider mite - No specific causes identified.</item>
+        <item>Tomato target spot is caused by the fungus Corynespora cassiicola. It leads to circular, target-like lesions on tomato leaves, affecting photosynthesis and fruit development.</item>
+        <item>Tomato yellow leaf curl virus is caused by several begomoviruses transmitted by whiteflies. It causes yellowing, curling, and stunting of tomato leaves, leading to reduced yield and fruit quality.</item>
+        <item>Tomato mosaic virus is caused by the Tobacco mosaic virus (TMV) and other related viruses. It results in mosaic patterns, mottling, and deformation of tomato leaves, affecting plant growth and fruit development.</item>
+        <item>Tomato healthy - No specific causes identified.</item>
+    </string-array>
+    <string name="classified_as">Classified as:</string>
+    <string name="know_more">Want to know more about disease</string>
+    <string name="result">Result</string>
+    <string name="cant_identify">Can\'t Identify the disease</string>
+    <string name="marathi">Marathi</string>
+    <string name="capture_text">Take a photo</string>
+    <string name="capture_desp">Capture photo of a plant to detect its disease.</string>
+    <string name="search">Search</string>
+    <string name="disease_info">Disease Info</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="solution_to_disease">Solution to the disease</string>
+    <string name="cause_of_disease">Cause of the disease</string>
+    <string name="customer_support">Customer support</string>
+</resources>

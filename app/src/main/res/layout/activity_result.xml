@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityResult"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:id="@+id/bar">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="@string/result"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:gravity="center_vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="250dp">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                tools:layout_editor_absoluteX="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/classified_as" />
+
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cant_identify"
+                    android:textColor="@color/lightBlack"
+                    android:textSize="23sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+        </LinearLayout>
+        
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/result_exp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expandable_duration="300"
+            app:expandable_parentLayout="@layout/layout_exptitle"
+            app:expandable_secondLayout="@layout/layout_expbody"
+            app:expandable_isExpanded="false"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/icon_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_gravity="end"
+            app:expandable_spinner_color="@color/lightBlack"
+            android:background="@drawable/shape_roundedbox"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

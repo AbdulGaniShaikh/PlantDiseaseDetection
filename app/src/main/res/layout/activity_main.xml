@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/lightWhite">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        app:elevation="0dp"
+        >
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:title="@string/app_name"
+            app:navigationIcon="@drawable/plant_icon"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+        >
+        <TextView
+            android:id="@+id/searchmain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="@color/white"
+            android:drawablePadding="8dp"
+            android:hint="@string/search"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:clickable="true"
+            app:drawableStartCompat="@drawable/icon_search"
+            android:focusable="true" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:foreground="@drawable/bottom_shadow"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/illust_capture"
+                    android:layout_margin="20dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingVertical="20dp"
+                    android:paddingEnd="20dp"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capture_text"
+                        android:textColor="@color/lightBlack"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/capture_desp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="10dp"
+            >
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/marathi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/marathi"
+                android:layout_marginHorizontal="20dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+<!--        <ImageButton-->
+
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="200dp"-->
+<!--            app:tint="@color/lightBlack"-->
+<!--            android:id="@+id/button2"-->
+<!--            android:src="@drawable/gallery"-->
+<!--            android:layout_marginHorizontal="20dp"-->
+<!--            />-->
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        app:icon="@drawable/icon_call"
+        android:text="@string/customer_support"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
